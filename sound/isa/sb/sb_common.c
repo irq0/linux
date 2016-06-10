@@ -39,7 +39,7 @@ MODULE_LICENSE("GPL");
 
 #define BUSY_LOOPS 100000
 
-#undef IO_DEBUG
+#define IO_DEBUG
 
 int snd_sbdsp_command(struct snd_sb *chip, unsigned char val)
 {

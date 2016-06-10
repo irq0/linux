@@ -407,7 +407,7 @@ static int __init acpi_parse_madt(struct acpi_table_header *table)
 
 #ifdef CONFIG_ACPI_NUMA
 
-#undef SLIT_DEBUG
+#define SLIT_DEBUG
 
 #define PXM_FLAG_LEN ((MAX_PXM_DOMAINS + 1)/32)
 

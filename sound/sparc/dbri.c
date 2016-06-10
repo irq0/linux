@@ -89,7 +89,7 @@ MODULE_PARM_DESC(id, "ID string for Sun DBRI soundcard.");
 module_param_array(enable, bool, NULL, 0444);
 MODULE_PARM_DESC(enable, "Enable Sun DBRI soundcard.");
 
-#undef DBRI_DEBUG
+#define DBRI_DEBUG
 
 #define D_INT	(1<<0)
 #define D_GEN	(1<<1)

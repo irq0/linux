@@ -46,7 +46,7 @@
 #define DMA_RX_SIZE 512
 #define STMMAC_GET_ENTRY(x, size)	((x + 1) & (size - 1))
 
-#undef FRAME_FILTER_DEBUG
+#define FRAME_FILTER_DEBUG
 /* #define FRAME_FILTER_DEBUG */
 
 /* Extra statistic and debug information exposed by ethtool */

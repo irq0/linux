@@ -136,7 +136,7 @@ struct mg_host {
 /*
  * Debugging macro and defines
  */
-#undef DO_MG_DEBUG
+#define DO_MG_DEBUG
 #ifdef DO_MG_DEBUG
 #  define MG_DBG(fmt, args...) \
 	printk(KERN_DEBUG "%s:%d "fmt, __func__, __LINE__, ##args)

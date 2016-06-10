@@ -36,7 +36,7 @@
 
 #define DRV_NAME	"pata_pdc2027x"
 #define DRV_VERSION	"1.0"
-#undef PDC_DEBUG
+#define PDC_DEBUG
 
 #ifdef PDC_DEBUG
 #define PDPRINTK(fmt, args...) printk(KERN_ERR "%s: " fmt, __func__, ## args)

@@ -21,7 +21,7 @@
 
 #include "idt77105.h"
 
-#undef GENERAL_DEBUG
+#define GENERAL_DEBUG
 
 #ifdef GENERAL_DEBUG
 #define DPRINTK(format,args...) printk(KERN_DEBUG format,##args)

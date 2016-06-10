@@ -48,7 +48,7 @@
 
 #define DRV_NAME "ide-pmac"
 
-#undef IDE_PMAC_DEBUG
+#define IDE_PMAC_DEBUG
 
 #define DMA_WAIT_TIMEOUT	50
 

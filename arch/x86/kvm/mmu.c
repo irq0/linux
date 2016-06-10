@@ -61,7 +61,7 @@ enum {
 	AUDIT_POST_SYNC
 };
 
-#undef MMU_DEBUG
+#define MMU_DEBUG
 
 #ifdef MMU_DEBUG
 static bool dbg = 0;

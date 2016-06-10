@@ -19,7 +19,7 @@
 #include <asm/io.h>
 #include <asm/sun3mmu.h>
 
-#undef SUN3_KMAP_DEBUG
+#define SUN3_KMAP_DEBUG
 
 #ifdef SUN3_KMAP_DEBUG
 extern void print_pte_vaddr(unsigned long vaddr);

@@ -68,10 +68,10 @@
 /* Configurable parameters */
 
 #undef PHY_LOOPBACK
-#undef TX_DEBUG
-#undef RX_DEBUG
-#undef GENERAL_DEBUG
-#undef EXTRA_DEBUG
+#define TX_DEBUG
+#define RX_DEBUG
+#define GENERAL_DEBUG
+#define EXTRA_DEBUG
 
 /* Do not touch these */
 

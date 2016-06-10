@@ -149,7 +149,7 @@ static struct class *lp_class;
 static struct parport *console_registered;
 #endif /* CONFIG_LP_CONSOLE */
 
-#undef LP_DEBUG
+#define LP_DEBUG
 
 /* Bits used to manage claiming the parport device */
 #define LP_PREEMPT_REQUEST 1

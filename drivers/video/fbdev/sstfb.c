@@ -72,7 +72,7 @@
  *   		toggle vga (0x46db) : toggle vga_pass_through
  */
 
-#undef SST_DEBUG
+#define SST_DEBUG
 
 
 /*

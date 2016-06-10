@@ -18,7 +18,7 @@
 #include <linux/isdn.h>
 #include "isdn_v110.h"
 
-#undef ISDN_V110_DEBUG
+#define ISDN_V110_DEBUG
 
 char *isdn_v110_revision = "$Revision: 1.1.2.2 $";
 

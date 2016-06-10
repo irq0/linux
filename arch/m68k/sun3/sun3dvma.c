@@ -18,7 +18,7 @@
 #include <asm/pgtable.h>
 #include <asm/dvma.h>
 
-#undef DVMA_DEBUG
+#define DVMA_DEBUG
 
 #ifdef CONFIG_SUN3X
 extern void dvma_unmap_iommu(unsigned long baddr, int len);

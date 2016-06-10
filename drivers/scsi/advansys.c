@@ -62,7 +62,7 @@
 #define ADVANSYS_STATS
 
 /* Enable driver tracing. */
-#undef ADVANSYS_DEBUG
+#define ADVANSYS_DEBUG
 
 typedef unsigned char uchar;
 

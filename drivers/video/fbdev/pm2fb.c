@@ -49,7 +49,7 @@
 #error "Only generic PCI cards supported."
 #endif
 
-#undef PM2FB_MASTER_DEBUG
+#define PM2FB_MASTER_DEBUG
 #ifdef PM2FB_MASTER_DEBUG
 #define DPRINTK(a, b...)	\
 	printk(KERN_DEBUG "pm2fb: %s: " a, __func__ , ## b)

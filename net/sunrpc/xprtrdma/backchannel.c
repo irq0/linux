@@ -15,7 +15,7 @@
 # define RPCDBG_FACILITY	RPCDBG_TRANS
 #endif
 
-#undef RPCRDMA_BACKCHANNEL_DEBUG
+#define RPCRDMA_BACKCHANNEL_DEBUG
 
 static void rpcrdma_bc_free_rqst(struct rpcrdma_xprt *r_xprt,
 				 struct rpc_rqst *rqst)

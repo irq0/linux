@@ -45,7 +45,7 @@ MODULE_LICENSE("GPL");
  * as well as break everything.
  */
 
-#undef SW_DEBUG
+#define SW_DEBUG
 #undef SW_DEBUG_DATA
 
 #define SW_START	600	/* The time we wait for the first bit [600 us] */

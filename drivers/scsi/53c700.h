@@ -18,7 +18,7 @@
 #undef	NCR_700_DEBUG
 /* Debug the tag queues, checking hash queue allocation and deallocation
  * and search for duplicate tags */
-#undef NCR_700_TAG_DEBUG
+#define NCR_700_TAG_DEBUG
 
 #ifdef NCR_700_DEBUG
 #define DEBUG(x)	printk x

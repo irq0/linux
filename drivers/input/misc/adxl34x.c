@@ -172,7 +172,7 @@
 #define ADXL346_3D_TOP			1	/* +Z */
 #define ADXL346_3D_BOTTOM		6	/* -Z */
 
-#undef ADXL_DEBUG
+#define ADXL_DEBUG
 
 #define ADXL_X_AXIS			0
 #define ADXL_Y_AXIS			1

@@ -102,7 +102,7 @@ MODULE_PARM_DESC(lk201_compose_is_alt,
 
 
 
-#undef LKKBD_DEBUG
+#define LKKBD_DEBUG
 #ifdef LKKBD_DEBUG
 #define DBG(x...) printk(x)
 #else

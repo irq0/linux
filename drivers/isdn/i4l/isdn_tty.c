@@ -8,7 +8,7 @@
  * of the GNU General Public License, incorporated herein by reference.
  *
  */
-#undef ISDN_TTY_STAT_DEBUG
+#define ISDN_TTY_STAT_DEBUG
 
 #include <linux/isdn.h>
 #include <linux/serial.h> /* ASYNC_* flags */

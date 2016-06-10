@@ -79,7 +79,7 @@ static inline __u32 iov_crc32( __u32 c, struct kvec *iov, unsigned int cnt )
 
 #define DVB_NET_MULTICAST_MAX 10
 
-#undef ULE_DEBUG
+#define ULE_DEBUG
 
 #ifdef ULE_DEBUG
 

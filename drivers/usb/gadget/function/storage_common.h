@@ -7,7 +7,7 @@
 #include <asm/unaligned.h>
 
 #ifndef DEBUG
-#undef VERBOSE_DEBUG
+#define VERBOSE_DEBUG
 #undef DUMP_MSGS
 #endif /* !DEBUG */
 

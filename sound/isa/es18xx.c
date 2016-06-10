@@ -199,7 +199,7 @@ static int snd_es18xx_dsp_get_byte(struct snd_es18xx *chip)
         return -ENODEV;
 }
 
-#undef REG_DEBUG
+#define REG_DEBUG
 
 static int snd_es18xx_write(struct snd_es18xx *chip,
 			    unsigned char reg, unsigned char data)

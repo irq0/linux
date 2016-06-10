@@ -85,7 +85,7 @@
 
 #define DRV_NAME "acenic"
 
-#undef INDEX_DEBUG
+#define INDEX_DEBUG
 
 #ifdef CONFIG_ACENIC_OMIT_TIGON_I
 #define ACE_IS_TIGON_I(ap)	0

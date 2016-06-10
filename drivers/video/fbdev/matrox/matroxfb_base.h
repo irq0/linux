@@ -9,7 +9,7 @@
 #define __MATROXFB_H__
 
 /* general, but fairly heavy, debugging */
-#undef MATROXFB_DEBUG
+#define MATROXFB_DEBUG
 
 /* heavy debugging: */
 /* -- logs putc[s], so every time a char is displayed, it's logged */

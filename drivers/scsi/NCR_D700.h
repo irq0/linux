@@ -9,7 +9,7 @@
 #define _NCR_D700_H
 
 /* Don't turn on debugging messages */
-#undef NCR_D700_DEBUG
+#define NCR_D700_DEBUG
 
 /* The MCA identifier */
 #define NCR_D700_MCA_ID		0x0092

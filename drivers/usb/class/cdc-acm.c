@@ -29,7 +29,7 @@
  */
 
 #undef DEBUG
-#undef VERBOSE_DEBUG
+#define VERBOSE_DEBUG
 
 #include <linux/kernel.h>
 #include <linux/errno.h>

@@ -49,7 +49,7 @@
 #include "mesh.h"
 
 #if 1
-#undef KERN_DEBUG
+#define KERN_DEBUG
 #define KERN_DEBUG KERN_WARNING
 #endif
 

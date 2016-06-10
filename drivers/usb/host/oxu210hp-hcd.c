@@ -78,7 +78,7 @@ static inline struct oxu_hcd *hcd_to_oxu(struct usb_hcd *hcd)
  */
 
 #undef OXU_URB_TRACE
-#undef OXU_VERBOSE_DEBUG
+#define OXU_VERBOSE_DEBUG
 
 #ifdef OXU_VERBOSE_DEBUG
 #define oxu_vdbg			oxu_dbg

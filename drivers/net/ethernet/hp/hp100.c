@@ -85,7 +85,7 @@
 
 #define HP100_DEFAULT_PRIORITY_TX 0
 
-#undef HP100_DEBUG
+#define HP100_DEBUG
 #undef HP100_DEBUG_B		/* Trace  */
 #undef HP100_DEBUG_BM		/* Debug busmaster code (PDL stuff) */
 

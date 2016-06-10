@@ -40,7 +40,7 @@
 #include <asm/irq.h>
 #include <asm/sunbpp.h>
 
-#undef __SUNBPP_DEBUG
+#define __SUNBPP_DEBUG
 #ifdef __SUNBPP_DEBUG
 #define dprintk(x) printk x
 #else

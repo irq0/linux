@@ -56,7 +56,7 @@
 /*
  * Define EXT4FS_DEBUG to produce debug messages
  */
-#undef EXT4FS_DEBUG
+#define EXT4FS_DEBUG
 
 /*
  * Debug code
@@ -75,7 +75,7 @@
 /*
  * Turn on EXT_DEBUG to get lots of info about extents operations.
  */
-#define EXT_DEBUG__
+#define EXT_DEBUG
 #ifdef EXT_DEBUG
 #define ext_debug(fmt, ...)	printk(fmt, ##__VA_ARGS__)
 #else

@@ -254,7 +254,7 @@ static bool hw_support_mmap(struct snd_pcm_substream *substream)
 	return true;
 }
 
-#undef RULES_DEBUG
+#define RULES_DEBUG
 
 #ifdef RULES_DEBUG
 #define HW_PARAM(v) [SNDRV_PCM_HW_PARAM_##v] = #v

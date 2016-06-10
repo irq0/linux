@@ -77,7 +77,7 @@
 #define DMSG(stuff...) do {printk(KERN_DEBUG "hermes @ %p: " , hw->iobase); \
 			printk(stuff); } while (0)
 
-#undef HERMES_DEBUG
+#define HERMES_DEBUG
 #ifdef HERMES_DEBUG
 #include <stdarg.h>
 

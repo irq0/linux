@@ -47,7 +47,7 @@
  *	- timer/fastsize write calls
  */
 
-#undef PDCS_DEBUG
+#define PDCS_DEBUG
 #ifdef PDCS_DEBUG
 #define DPRINTK(fmt, args...)	printk(KERN_DEBUG fmt, ## args)
 #else

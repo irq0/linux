@@ -31,7 +31,7 @@ extern __printf(3, 4) void _udf_warn(struct super_block *sb,
 #define udf_info(fmt, ...)					\
 	pr_info("INFO " fmt, ##__VA_ARGS__)
 
-#undef UDFFS_DEBUG
+#define UDFFS_DEBUG
 
 #ifdef UDFFS_DEBUG
 #define udf_debug(fmt, ...)					\

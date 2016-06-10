@@ -33,7 +33,7 @@
 #include <linux/seq_file.h>
 #define PCI_DEBUG
 #include <linux/pci.h>
-#undef PCI_DEBUG
+#define PCI_DEBUG
 #include <linux/proc_fs.h>
 #include <linux/export.h>
 

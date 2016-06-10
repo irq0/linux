@@ -60,7 +60,7 @@
 
 #include "gsc.h"
 
-#undef DINO_DEBUG
+#define DINO_DEBUG
 
 #ifdef DINO_DEBUG
 #define DBG(x...) printk(x)

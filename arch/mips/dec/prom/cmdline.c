@@ -12,7 +12,7 @@
 #include <asm/bootinfo.h>
 #include <asm/dec/prom.h>
 
-#undef PROM_DEBUG
+#define PROM_DEBUG
 
 void __init prom_init_cmdline(s32 argc, s32 *argv, u32 magic)
 {

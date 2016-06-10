@@ -22,7 +22,7 @@
 #define VERSION "1.0"
 
 #undef DEBUG
-#undef LOTSA_DEBUG
+#define LOTSA_DEBUG
 
 #ifdef DEBUG
 #define DBG(args...)	printk(args)

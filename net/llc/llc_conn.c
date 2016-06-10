@@ -843,7 +843,7 @@ drop_unlock:
 	goto out;
 }
 
-#undef LLC_REFCNT_DEBUG
+#define LLC_REFCNT_DEBUG
 #ifdef LLC_REFCNT_DEBUG
 static atomic_t llc_sock_nr;
 #endif

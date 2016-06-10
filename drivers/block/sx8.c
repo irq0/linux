@@ -35,10 +35,10 @@
 #define CARM_DEBUG
 #define CARM_VERBOSE_DEBUG
 #else
-#undef CARM_DEBUG
-#undef CARM_VERBOSE_DEBUG
+#define CARM_DEBUG
+#define CARM_VERBOSE_DEBUG
 #endif
-#undef CARM_NDEBUG
+#define CARM_NDEBUG
 
 #define DRV_NAME "sx8"
 #define DRV_VERSION "1.0"

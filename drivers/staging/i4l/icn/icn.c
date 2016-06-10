@@ -35,12 +35,12 @@ MODULE_PARM_DESC(icn_id2, "ID-String of first card, second S0 (4B only)");
 /*
  * Verbose bootcode- and protocol-downloading.
  */
-#undef BOOT_DEBUG
+#define BOOT_DEBUG
 
 /*
  * Verbose Shmem-Mapping.
  */
-#undef MAP_DEBUG
+#define MAP_DEBUG
 
 static char
 *revision = "$Revision: 1.65.6.8 $";

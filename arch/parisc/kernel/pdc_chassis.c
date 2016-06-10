@@ -22,7 +22,7 @@
  *    	    Find out how to get Chassis warnings out of PAT boxes?
  */
 
-#undef PDC_CHASSIS_DEBUG
+#define PDC_CHASSIS_DEBUG
 #ifdef PDC_CHASSIS_DEBUG
 #define DPRINTK(fmt, args...)	printk(fmt, ## args)
 #else

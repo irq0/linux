@@ -38,7 +38,7 @@
 #undef SANITYCHECK_RELOC
 
 /* Maybe output debug messages. */
-#undef RELOC_DEBUG
+#define RELOC_DEBUG
 
 /* Maybe we want to share core as well as disk space.
    Mainly depends on the config macro CONFIG_SHARE_SHLIB_CORE, but it is

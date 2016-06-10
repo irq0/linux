@@ -9,7 +9,7 @@
 
 #define RPCDBG_FACILITY	RPCDBG_SVCXPRT
 
-#undef SVCRDMA_BACKCHANNEL_DEBUG
+#define SVCRDMA_BACKCHANNEL_DEBUG
 
 int svc_rdma_handle_bc_reply(struct rpc_xprt *xprt, struct rpcrdma_msg *rmsgp,
 			     struct xdr_buf *rcvbuf)

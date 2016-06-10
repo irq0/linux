@@ -32,7 +32,7 @@
 
 static char *revision = "$Revision: 1.1.2.3 $";
 
-#undef AVM_B1DMA_DEBUG
+#define AVM_B1DMA_DEBUG
 
 /* ------------------------------------------------------------- */
 

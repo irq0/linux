@@ -55,7 +55,7 @@ enum {
 #define BSG_DEFAULT_CMDS	64
 #define BSG_MAX_DEVS		32768
 
-#undef BSG_DEBUG
+#define BSG_DEBUG
 
 #ifdef BSG_DEBUG
 #define dprintk(fmt, args...) printk(KERN_ERR "%s: " fmt, __func__, ##args)

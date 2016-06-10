@@ -21,7 +21,7 @@
 #include <asm/pgtable.h>
 
 /* undef for production */
-#undef HIGHMEM_DEBUG
+#define HIGHMEM_DEBUG
 
 /* declarations for highmem.c */
 extern unsigned long highstart_pfn, highend_pfn;

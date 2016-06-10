@@ -31,8 +31,8 @@
 #include <linux/isdn/capilli.h>
 #include "avmcard.h"
 
-#undef AVM_C4_DEBUG
-#undef AVM_C4_POLLDEBUG
+#define AVM_C4_DEBUG
+#define AVM_C4_POLLDEBUG
 
 /* ------------------------------------------------------------- */
 
